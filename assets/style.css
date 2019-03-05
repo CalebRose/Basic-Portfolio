@@ -1,82 +1,107 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/prism.png");
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/qbkls.png");
 }
 
 p {
-    color: black;
+  color: black;
 }
 
 #navbar {
-    background-color: #ffffff;
-    display: block;
-    position: relative;
-    width: auto;
-    padding: 15px 100px;
+  background-color: #ffffff;
+  position: relative;
+  width: auto;
+  padding: 15px 100px;
+  margin-bottom: 20px;
 }
 
 .myName {
-    background-color: teal;
-    float: left;
-    margin: 0 auto;
-    padding: 4px 20px;
+  background-color: teal;
+  float: left;
+  margin: 0 auto;
+  padding: 6px 20px;
 }
 
 .myName a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 #navbar ul {
-    list-style: none;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    text-align: right;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: right;
 }
 
 #navbar ul li {
-    display: inline;
-    padding: 16px 10px;
+  display: inline;
+  padding: 16px 10px;
+  border-right: 1px solid #8f8f8f;
+}
+
+#navbar ul li:last-of-type {
+  border-right: none;
 }
 
 #navbar ul li a {
-    text-decoration: none;
-    color: grey;
-    top: 0;
+  text-decoration: none;
+  color: grey;
+  top: 0;
 }
 
 #content {
-    background-color: grey;
-    width: 960px;
-    padding: 20px;
-    margin: 10px;
-    display: inline-block;
-
+  background-color: grey;
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto !important;
+  display: block;
+  flex-basis: auto;
+  overflow: auto;
 }
 
 #aboutMe {
-    background-color: #ffffff;
-    width: 960px;
-    padding: 10px;
-    line-height: 30px;
+  background-color: #ffffff;
+  max-width: 940px;
+  padding: 10px;
+  line-height: 30px;
+  display: block;
+}
+
+#headshot {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+}
+
+#teal {
+  background-color: teal;
+  color: teal;
+  text-align: center;
+  bottom: 45px;
+  right: 0;
+  left: 0;
+  position: fixed;
 }
 
 footer {
-    text-align: center;
-    display: block;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    background-color: #666666;
-    padding: 1rem;
-    /*padding: 0 0 20px; */
-    /*padding-top: 10px; */
+  text-align: center;
+  display: block;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #666666;
+  padding: 1rem;
+  border-top: 8px solid #4aaaa5;
+  /*padding: 0 0 20px; */
+  /*padding-top: 10px; */
 }
 
 footer small {
-    color: white;
+  color: white;
 }
