@@ -126,6 +126,10 @@ h1 {
   display: block;
 }
 
+#aboutMe h1 {
+  color: #4aaaa5;
+}
+
 #headshot {
   width: 20%;
   float: left;
