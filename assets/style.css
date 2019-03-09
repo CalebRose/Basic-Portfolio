@@ -100,7 +100,8 @@ h1 {
   clear: both;
   background-color: grey;
   max-width: 960px;
-  margin: 0 auto !important;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   flex-basis: auto;
   overflow: auto;
@@ -111,6 +112,7 @@ h1 {
 
 #content {
   background-color: #ffffff;
+  position: relative;
   max-width: 940px;
   padding: 25px;
   line-height: 30px;
@@ -168,9 +170,40 @@ button {
 }
 
 .project {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  float: left;
+  width: 250px;
+  margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  border: 0;
+  opacity: 0.7;
+}
+
+#hangman {
+  float: left;
+}
+#rpg {
+  float: right;
+}
+.middle {
+  clear: both;
+}
+#trivia {
+  float: left;
+}
+#widget {
+  float: right;
+}
+.bottom {
+  clear: both;
+}
+#rps {
+  float: left;
 }
 
 footer {
