@@ -158,6 +158,7 @@ button {
   background-color: #4aaaa5;
   /* Green */
   border: none;
+  border-radius: 8px;
   color: white;
   padding: 15px 32px;
   text-align: center;
