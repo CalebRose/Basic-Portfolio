@@ -170,10 +170,7 @@ button {
 }
 
 .project {
-  display: flex;
   float: left;
-  flex-wrap: wrap;
-  position: relative;
   width: 250px;
   margin-right: 20px;
   margin-bottom: 20px;
