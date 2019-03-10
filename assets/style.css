@@ -170,40 +170,22 @@ button {
 }
 
 .project {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
+  float: left;
   width: 250px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+#trivia,
+#rps {
+  clear: both;
 }
 
 .project img {
   width: 100%;
   border: 0;
   opacity: 0.7;
-}
-
-#hangman {
-  float: left;
-}
-#rpg {
-  float: right;
-}
-.middle {
-  clear: both;
-}
-#trivia {
-  float: left;
-}
-#widget {
-  float: right;
-}
-.bottom {
-  clear: both;
-}
-#rps {
-  float: left;
+  height: 50%;
 }
 
 footer {
