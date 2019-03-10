@@ -117,12 +117,17 @@ h1 {
   padding: 25px;
   line-height: 30px;
   display: block;
-  overflow: hidden;
   zoom: 1;
 }
 
 #content h1 {
   color: #4aaaa5;
+}
+
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 hr {
@@ -175,7 +180,7 @@ button {
   float: left;
   position: relative;
   overflow: auto;
-  width: 250px;
+  width: 270px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -192,11 +197,12 @@ button {
   height: 50%;
 }
 
-.project p {
+.project h3 {
   position: absolute;
   bottom: 20px;
-  width: 85%;
-  padding: 15px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
@@ -206,13 +212,17 @@ button {
   border-bottom: 0;
 }
 
+.mainFooter {
+  position: fixed;
+}
+
 footer {
+  margin-top: 30px;
   text-align: center;
   display: block;
   right: 0;
   left: 0;
   bottom: 0;
-  position: fixed;
   background-color: #666666;
   padding: 1rem;
   border-top: 8px solid #4aaaa5;
